@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
+        <alternate_portal/>
+        <communication_channels/>
         <css_variables>$brand-primary: #428bca;
 $body-bg: #f0f3f4;
 $state-success-text: #5cb85c;
@@ -21,35 +23,47 @@ $sp-logo-margin-x: 15px;
 $btn-default-bg: #fff;
 $text-muted: #979797;
 </css_variables>
+        <dark_theme/>
         <default>false</default>
-        <homepage display_value="notes_home">a61956e1094232007f44e1046c8ff68b</homepage>
+        <embeddable_macroponents/>
+        <enable_ais>false</enable_ais>
+        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_embeddables>false</enable_embeddables>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="notes_home_ex">9718aad5c3bac350a419d0dc0501313b</homepage>
         <icon/>
+        <inactive>false</inactive>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
         <login_page/>
         <logo>84e89aa1094232007f44e1046c8ff69c.iix?t=m</logo>
+        <logo_alt_text>CreateNotes</logo_alt_text>
         <notfound_page/>
         <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
         <sc_catalog/>
         <sc_catalog_page/>
         <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
         <sp_chat_queue/>
         <sp_rectangle_menu/>
-        <sqanda_knowledge_base/>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-10 19:07:17</sys_created_on>
         <sys_id>b4c8d2e1094232007f44e1046c8ff652</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>CreateNotes</sys_name>
         <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
         <sys_update_name>sp_portal_b4c8d2e1094232007f44e1046c8ff652</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-10 19:12:21</sys_updated_on>
+        <sys_updated_on>2026-08-18 15:32:25</sys_updated_on>
         <theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme>
         <title>CreateNotes</title>
+        <ts_index_group/>
         <url_suffix>notes</url_suffix>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=b4c8d2e1094232007f44e1046c8ff652"/>
@@ -59,6 +73,7 @@ $text-muted: #979797;
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>logo</file_name>
+        <hash/>
         <image_height>78</image_height>
         <image_width>261</image_width>
         <size_bytes>7420</size_bytes>
